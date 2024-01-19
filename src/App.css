@@ -1,0 +1,74 @@
+/* App.css */
+
+.App {
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 10px;
+}
+
+.app-title {
+  color: #e71d1d;
+  font-size: 2rem; /* Increased font size for the header */
+  margin-bottom: 15px;
+}
+
+.news-articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* News.css */
+
+.news {
+  width: 30%;
+  
+  margin: 20px;
+  margin-bottom: 20px;
+  background-color: #f4e9e9;
+  border-radius: 10px;
+  overflow: hidden;
+  border-color: 2px solid black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.news-img {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.news-content {
+  padding: 10px;
+}
+
+h1 {
+  font-size: 1.2rem; /* Slightly increased minimum font size for titles */
+  margin-bottom: 10px;
+  color: #0e0404;
+}
+
+p {
+  font-size: 1rem;
+  color: #0f0f0f;
+  margin-bottom: 15px;
+}
+
+a {
+  display: inline-block;
+  background-color: #070707;
+  color: #fff;
+  padding: 8px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: #0056b3;
+}
+
+.source {
+  margin-top: 10px;
+  color: #888;
+}
